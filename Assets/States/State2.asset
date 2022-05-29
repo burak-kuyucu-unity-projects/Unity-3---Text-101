@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a765c9676159d9247b17d972f26265fc, type: 3}
+  m_Name: State2
+  m_EditorClassIdentifier: 
+  storyText: 'You went to the bathroom. 30 min later...
+
+    
+
+    You must go
+    to the school. You don''t feed good. You are almost late:
+
+    
+
+    1) Go
+    to the school
+
+    2) Just call your friends and hangout'
+  nextStates:
+  - {fileID: 11400000, guid: e87c0002177cb4f498207b0527b25e50, type: 2}
+  - {fileID: 11400000, guid: f3d1e0d8441caa646965053f756f455a, type: 2}
